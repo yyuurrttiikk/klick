@@ -45,7 +45,7 @@
             await doBigPause();
         }
 
-        await sleep(Math.random() * 2 + 5); // 5–7 секунд между лайками
+        await sleep(Math.random() * 2 + 5); 
         scroll();
         likeNext();
     };
