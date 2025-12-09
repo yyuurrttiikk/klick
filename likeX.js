@@ -1,7 +1,7 @@
 (() => {
     let liked = 0;
     const pauseAfter = 50;           
-    const maxLikes = 500;            // сколько лайкнуть за один запуск
+    const maxLikes = 500;            
     const bigPause = 600;            // 10 минут = 600 секунд
 
     const scroll = () => window.scrollTo(0, document.body.scrollHeight);
