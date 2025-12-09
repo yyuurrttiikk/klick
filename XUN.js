@@ -37,7 +37,7 @@
                 observer.disconnect();
                 retryCount = 0;
 
-                // ←←← Проверяем, нужна ли большая пауза
+               
                 if (unfollowed % pauseAfter === 0) {
                     console.log(`Достигнуто ${unfollowed} отписок → делаем паузу 10 минут`);
                     sleep(600).then(() => {          // 600 сек = 10 минут
