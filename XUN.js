@@ -77,7 +77,7 @@
 
         await sleep(5);  
 
-        // fallback
+       
         setTimeout(() => {
             if (retryCount > 0) {
                 const confirmBtn = getConfirmButton();
