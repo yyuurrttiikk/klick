@@ -40,7 +40,7 @@
                
                 if (unfollowed % pauseAfter === 0) {
                     console.log(`Достигнуто ${unfollowed} отписок → делаем паузу 10 минут`);
-                    sleep(600).then(() => {          // 600 сек = 10 минут
+                    sleep(600).then(() => {          
                         console.log('Пауза 10 минут закончилась → продолжаем');
                         scrollToBottom();
                         setTimeout(nextUnfollow, 3000);
