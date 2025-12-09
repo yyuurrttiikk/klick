@@ -1,7 +1,7 @@
 (() => {
     let unfollowed = 0;
     const maxUnfollows = 100;          
-    const pauseAfter = 50;              // ← после скольких отписок делать 10-минутную паузу
+    const pauseAfter = 50;              
     let retryCount = 0;
     const maxRetries = 7;
     let observer = null;
