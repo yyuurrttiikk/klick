@@ -40,7 +40,7 @@
         liked++;
         console.log(`Лайк #${liked} поставлен`);
 
-        // Пауза после каждых 50
+        
         if (liked % pauseAfter === 0) {
             await doBigPause();
         }
