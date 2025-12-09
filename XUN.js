@@ -75,7 +75,7 @@
         retryCount = 1;
         startObserver();
 
-        await sleep(5);  // ждём модалку
+        await sleep(5);  
 
         // fallback
         setTimeout(() => {
