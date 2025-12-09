@@ -7,7 +7,7 @@
     const scroll = () => window.scrollTo(0, document.body.scrollHeight);
     const sleep = (sec) => new Promise(r => setTimeout(r, sec * 1000));
 
-    // Кнопка лайка в комментариях (работает на всех языках в 2025)
+    
     const getLikeButtons = () => 
         [...document.querySelectorAll('div[data-testid="reply"]')]
             .map(reply => reply.closest('article')?.querySelector('div[data-testid="like"]'))
